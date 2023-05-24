@@ -48,6 +48,7 @@ NOT x -> h
 NOT y -> i`, 'x'));
 
 // NOTE this input will be different for each person, put yours here
+// NOTE: Part 2 only requires making a change to the input
 console.log(f(`lf AND lq -> ls
 iu RSHIFT 1 -> jn
 bo OR bu -> bv
@@ -102,7 +103,7 @@ NOT ft -> fu
 jn OR jo -> jp
 iv OR jb -> jc
 hv OR hu -> hw
-19138 -> b
+16076 -> b
 gj RSHIFT 5 -> gm
 hq AND hs -> ht
 dy RSHIFT 1 -> er
@@ -386,4 +387,4 @@ y OR ae -> af
 hf AND hl -> hn
 NOT h -> i
 NOT hn -> ho
-he RSHIFT 5 -> hh`, 'a', true));
+he RSHIFT 5 -> hh`, 'a', false));
